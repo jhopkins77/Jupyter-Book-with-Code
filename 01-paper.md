@@ -71,6 +71,13 @@ One of the common forms of scientific communication today is through PDF documen
 ![](./images/pdf-two-column.png)
 **Figure 5**: A PDF rendering through MyST.
 
+```{code-cell}
+:label: markdown-myst
+print("Here's some python!")
+```
+
+And here I reference [](#markdown-myst).
+
 ## Conclusion
 
 There are many opportunities to improve open-science communication, to make it more interactive, accessible, more reproducible, and both produce and use structured data throughout the research-writing process. The `mystjs` ecosystem of tools is designed with structured data at its core. We would love if you gave it a try -- learn to get started at <https://myst.tools>.
